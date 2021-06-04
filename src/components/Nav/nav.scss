@@ -1,0 +1,33 @@
+$color-primary: white;
+
+.top-nav-bar {
+  background-color: $color-primary;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.menu-text {
+  text-transform: uppercase;
+  font-size: 0.9em;
+  padding-left: 4px;
+}
+
+.action-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.menu-options {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu-option {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

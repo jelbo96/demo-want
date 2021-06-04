@@ -1,0 +1,33 @@
+$myColor: red;
+
+h1 {
+  color: $myColor;
+}
+
+.footer {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 80px;
+}
+
+.background-footer {
+  min-width: 100%;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  overflow: hidden;
+  min-height: 150px;
+}
+
+.menu {
+  padding: 5px;
+}
+
+.security {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
