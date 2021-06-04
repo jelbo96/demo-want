@@ -1,5 +1,7 @@
 import "./worksCarrousel.scss";
 import demoCardDino from "../../images/demoCardDino.jpg";
+import animals from "../../images/animals.svg";
+import seeMore from "../../images/seeMore.svg";
 
 function WorksCarrousel() {
   const arr = [
@@ -22,13 +24,17 @@ function WorksCarrousel() {
             style={{ backgroundImage: `url(${demoCardDino})` }}
           >
             <div className="card-layer">
-              <span> Animales </span>
+              <div className="container-label">
+                <img src={animals} />
+              </div>
 
-              <span> Un tiranosaurio con palitos de helado </span>
+              <div className="container-label">
+                <p className="title-label">{e}</p>
 
-              <span> 16-2 </span>
+                <span> 16-2 </span>
 
-              <span> Ver OBRA </span>
+                <img src={seeMore} />
+              </div>
             </div>
           </div>
         ))}
