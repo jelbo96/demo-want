@@ -2,6 +2,8 @@ import logo from "./logo.svg";
 import "./App.css";
 import Nav from "./components/Nav";
 import Header from "./components/Header";
+import WorkshopsGrid from "./components/WorkshopsGrid";
+import WorksCarrousel from "./components/WorksCarrousel";
 import Footer from "./components/Footer";
 
 function App() {
@@ -9,8 +11,8 @@ function App() {
     <div className="App">
       <Nav />
       <Header />
-      <p> Grid </p>
-      <p> Carrusel </p>
+      <WorkshopsGrid />
+      <WorksCarrousel />
       <Footer />
     </div>
   );
